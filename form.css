@@ -1,0 +1,13 @@
+body {
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+    background-color: aquamarine;
+}
+.box {
+    width: 100%;
+    max-width: 500px;
+    background-color: aliceblue;
+    padding: 15px 20px;
+}
