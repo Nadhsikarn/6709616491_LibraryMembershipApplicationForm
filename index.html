@@ -19,6 +19,7 @@
             <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
             <label for="name">Full name (Thai):</label>
             <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
             <label for="gender">gender :</label>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
@@ -26,12 +27,16 @@
             <label for="female">female</label>
             <input type="radio" id="others" name="gender" value="others">
             <label for="others">others</label><br><br>
+
             <label for="stuID">Student ID :</label>
             <input type="text" id="stuID" name="stuID" placeholder="Enter your student ID" required><br><br>
+
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
             <label for="Birthdate">Birth date :</label>
             <input type="date" id="Birthdate" name="Birthdate"><br><br>
+
             <label for="faculty">Faculty :</label>
             <select name="Faculty" id="faculty" name="Faculty" required>
                 <option value="dentistry">Faculty of Dentistry</option>
@@ -61,36 +66,38 @@
                 <option value="globalstudies">Global Studies College</option>
                 <option value="sirindhornintertech">Sirindhorn International Institute of Technology</option>
             </select><br><br>
-        <label>select your favorite book genres :</label><br>
-        <input type="checkbox" id="Art" name="genre" value="Art">
-        <label for="Art">Art</label>
-        <input type="checkbox" id="Comics" name="genre" value="Comics">
-        <label for="Comics">Comics</label>
-        <input type="checkbox" id="Childrens" name="genre" value="Childrens">
-        <label for="Childrens">Childrens book</label>
-        <input type="checkbox" id="fiction" name="genre" value="fiction">
-        <label for="fiction">Fiction</label><br>
-        <input type="checkbox" id="Self-Help Books" name="genre" value="Self-Help Books">
-        <label for="Self-Help Books">Self-Help Books</label>
-        <input type="checkbox" id="Research" name="genre" value="Research">
-        <label for="Research">Research Books</label>
-        <input type="checkbox" id="Reference" name="genre" value="Reference">
-        <label for="Reference">Reference Books</label><br>
-        <input type="checkbox" id="Textbooks" name="genre" value="Textbooks">
-        <label for="Textbooks">Textbooks</label>
-        <input type="checkbox" id="Literature" name="genre" value="Literature">
-        <label for="Literature">Literature</label>
-        <input type="checkbox" id="Novels" name="genre" value="Novels">
-        <label for="Novels">Novels</label>
-        <input type="checkbox" id="TravelCulture" name="genre" value="TravelCulture">
-        <label for="TravelCulture">Travel and Culture Books</label><br><br>
-        <label for="email-updates">Do you want to receive library updates and news via email ?</label><br>
+            
+        <label><b>select your favorite book genres :</b></label><br>
+            <input type="checkbox" id="Art" name="genre" value="Art">
+            <label for="Art">Art</label>
+            <input type="checkbox" id="Comics" name="genre" value="Comics">
+            <label for="Comics">Comics</label>
+            <input type="checkbox" id="Childrens" name="genre" value="Childrens">
+            <label for="Childrens">Childrens book</label>
+            <input type="checkbox" id="fiction" name="genre" value="fiction">
+            <label for="fiction">Fiction</label><br>
+            <input type="checkbox" id="Self-Help Books" name="genre" value="Self-Help Books">
+            <label for="Self-Help Books">Self-Help Books</label>
+            <input type="checkbox" id="Research" name="genre" value="Research">
+            <label for="Research">Research Books</label>
+            <input type="checkbox" id="Reference" name="genre" value="Reference">
+            <label for="Reference">Reference Books</label><br>
+            <input type="checkbox" id="Textbooks" name="genre" value="Textbooks">
+            <label for="Textbooks">Textbooks</label>
+            <input type="checkbox" id="Literature" name="genre" value="Literature">
+            <label for="Literature">Literature</label>
+            <input type="checkbox" id="Novels" name="genre" value="Novels">
+            <label for="Novels">Novels</label>
+            <input type="checkbox" id="TravelCulture" name="genre" value="TravelCulture">
+            <label for="TravelCulture">Travel and Culture Books</label><br><br>
+
+        <label for="email-updates"><b>Do you want to receive library updates and news via email ?</b></label><br>
           <label for="yes">
           <input type="radio" id="yes" name="email_updates" value="Yes">Yes</label><br>
           <label for="no">
           <input type="radio" id="no" name="email_updates" value="No">No</label><br><br>
         
-          <button type="submit">Submit</button>
+          <div class="botton"><input type="submit" value="submit"></input></div>
         </form>
     </div>
 </body>
